@@ -2,7 +2,7 @@ import React, { Component, useState } from 'react';
 import Navbar from './UI/Navbar';
 import MobileMenu from './UI/MobileMenu'
 import LoadingScreenAnimation from './UI/LoadingScreenAnimation';
-import Home from './sections/home';
+import Home from './sections/Home';
 import AnimationWaves from './UI/AnimationWawes';
 import About from './sections/about';
 
