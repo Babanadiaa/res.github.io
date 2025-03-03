@@ -4,7 +4,7 @@ import MobileMenu from './UI/MobileMenu'
 import LoadingScreenAnimation from './UI/LoadingScreenAnimation';
 import Home from './sections/Home';
 import AnimationWaves from './UI/AnimationWawes';
-import About from './sections/about';
+import About from './sections/About';
 
 function App() {
   const [isLoading, setIsLoading] = useState(false)
