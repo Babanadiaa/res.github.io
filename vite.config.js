@@ -9,5 +9,5 @@ export default defineConfig({
   },
   plugins:
     [react(), tailwindcss()],
-  base: "/Babanadiaa.github.io"
+  base: "/Babanadiaa.github.io/"
 })
