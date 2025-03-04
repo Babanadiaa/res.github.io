@@ -5,6 +5,10 @@ import LoadingScreenAnimation from './UI/LoadingScreenAnimation';
 import Home from './sections/Home';
 import AnimationWaves from './UI/AnimationWawes';
 import About from './sections/About';
+import Project from './sections/project';
+import Contact from './sections/contact';
+import RevealOnScroll from './UI/RevealOnScroll';
+import Footer from './sections/Footer';
 
 function App() {
   const [isLoading, setIsLoading] = useState(false)
@@ -14,9 +18,14 @@ function App() {
       {/* {!isLoading && (<LoadingScreenAnimation onComplete={() => setIsLoading(true)} />)} */}
       <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <MobileMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-      <Home />
-      <AnimationWaves />
+      <RevealOnScroll>
+        <Home />
+        <AnimationWaves />
+      </RevealOnScroll>
       <About />
+      <Project />
+      <Contact />
+      <Footer />
     </>
   )
 }

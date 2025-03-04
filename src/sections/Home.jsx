@@ -4,7 +4,7 @@ import { FiDownload } from "react-icons/fi";
 import resume from '../assets/resume.pdf'
 export default function Home() {
     return (
-        <section id='#home' className='min-h-screen flex flex-col justify-center items-center
+        <section id='home' className='min-h-screen flex flex-col justify-center items-center
             lg:flex-row-reverse gap-9 lg:gap-18  '>
             <div className="text-center z-10 px-4">
                 <img className='w-[200px] border-0 mt-20 rounded-full shadow-lg shadow-gray-500/70
