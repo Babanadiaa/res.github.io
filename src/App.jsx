@@ -10,12 +10,13 @@ import Contact from './sections/contact';
 import RevealOnScroll from './UI/RevealOnScroll';
 import Footer from './sections/Footer';
 
+
 function App() {
   const [isLoading, setIsLoading] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
     <>
-      {/* {!isLoading && (<LoadingScreenAnimation onComplete={() => setIsLoading(true)} />)} */}
+      {!isLoading && (<LoadingScreenAnimation onComplete={() => setIsLoading(true)} />)}
       <Navbar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <MobileMenu isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
       <RevealOnScroll>

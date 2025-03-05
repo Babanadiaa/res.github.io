@@ -3,6 +3,8 @@ import { LiaTelegramPlane } from "react-icons/lia";
 import { FaInstagram } from "react-icons/fa";
 import { SlSocialGithub } from "react-icons/sl";
 import RevealOnScroll from '../UI/RevealOnScroll';
+import { FiYoutube } from "react-icons/fi";
+
 
 
 
@@ -25,6 +27,10 @@ export default function Footer() {
                         <a href="https://github.com/Babanadiaa" className='border p-2 text-2xl rounded hover:-translate-y-2 transition-all
                     bg-white/5 text-white ' target='_blank'>
                             <SlSocialGithub />
+                        </a>
+                        <a href="https://rt.pornhub.com/gay/video/search?search=gay+porn" className='border p-2 text-2xl rounded hover:-translate-y-2 transition-all
+                    bg-white/5 text-white ' target='_blank'>
+                            <FiYoutube />
                         </a>
                     </div>
                     <p>@ 2025 BabaZhaba. Stick together like balls of ass</p>

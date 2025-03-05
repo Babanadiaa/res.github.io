@@ -17,7 +17,7 @@ export default function Home() {
                     My purpose is to build solutions that offer dynamic UI, high performance and delightful UX. </p>
                 <div className="flex justify-center items-center space-x-4">
 
-                    <a href="#Contact" className='bg-gradient-to-r flex flex-row from-teal-500 to 
+                    <a href="#contact" className='bg-gradient-to-r flex flex-row from-teal-500 to 
                     indigo-600 py-3 px-6 rounded hover:-translate-y-1
                     hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] font-medium transition relative overflow-hidden'>Contact me</a>
 
