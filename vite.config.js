@@ -7,5 +7,5 @@ export default defineConfig({
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
   },
   plugins: [react(), tailwindcss(),],
-  base: '/Babanadiaa.github.io/',
+  base: '/res.github.io/',
 })

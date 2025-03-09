@@ -46,7 +46,7 @@ body {
 
 .reveal {
   opacity: 0;
-  transform: translateY(80px);
+  transform: translateY(20px);
   transition: opacity 0.7s ease, transform 0.7s ease;
 }
 
