@@ -1,5 +1,6 @@
 import React from 'react'
 import RevealOnScroll from '../UI/RevealOnScroll'
+import barTian from '../assets/barTian.jpg'
 
 export default function About() {
     const skills = [
@@ -16,8 +17,7 @@ export default function About() {
                         About Me
                     </h2>
                     <div className="p-8 mb-6 rounded-xl border-white/10 border-2 hover:-translate-y-1 transition-all">
-                        <p className='text-gray-300 mb-5 text-xl'>Нев'єбенний веб девелопер, який ніхуя насправді не вміє, але я 100% підійду вам
-                            в команду, тому що єбать його рот я вмію користуватись гуглом і чатом GPT
+                        <p className='text-gray-300 mb-5 text-xl'>Motivated frontend developer with experience in building responsive and interactive web applications using React. Skilled in creating dynamic user interfaces, handling APIs, and managing application state. Continuously improving through personal projects like a To-Do List and portfolio. Open to new challenges and eager to collaborate on modern web solutions.
                         </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -53,7 +53,8 @@ export default function About() {
                                 X In my head (2021-2025)
                             </li>
                             <li>
-                                I haven`t worked anywhere, but i can work with you 🤗
+                                I haven`t worked anywhere, but i can work with you 🤗 <br />
+                                <span className='text-[10px]'>Ну хіба барменчиком більше рочку </span>
                             </li>
                         </ul>
                     </div>

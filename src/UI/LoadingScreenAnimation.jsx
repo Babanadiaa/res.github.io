@@ -5,7 +5,7 @@ export default function LoadingScreenAnimation({ onComplete }) {
 
     const [text, setText] = useState('');
 
-    const fullText = 'Glad to have you here!';
+    const fullText = 'Welcome to my portfolio :)!';
 
     useEffect(() => {
         let index = 0;

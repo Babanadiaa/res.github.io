@@ -6,7 +6,7 @@ import RevealOnScroll from '../UI/RevealOnScroll'
 export default function Project() {
     const [project] = useState([
         {
-            image: food, name: 'Food App', brief: `Невеликий сайт по доставці харчування, та з розрахунком калорійності індивідуально під лоюдину
+            image: food, name: 'Food App', brief: `Невеликий сайт по доставці харчування, та з розрахунком калорійності індивідуально під людину
             за допомогою формул`
         },
         {
