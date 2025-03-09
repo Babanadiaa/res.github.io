@@ -1,6 +1,5 @@
 import React from 'react'
 import RevealOnScroll from '../UI/RevealOnScroll'
-import barTian from '../assets/barTian.jpg'
 
 export default function About() {
     const skills = [

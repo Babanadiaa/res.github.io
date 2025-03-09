@@ -1,5 +1,5 @@
 import React from 'react'
-import profile_image from '../assets/profile_image.webp'
+import profile_image from '../assets/profile_image.jpg'
 import { FiDownload } from "react-icons/fi";
 import resume from '../assets/resume.pdf'
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
             lg:flex-row-reverse gap-9 lg:gap-18  '>
             <div className="text-center z-10 px-4">
                 <img className='w-[200px] border-0 mt-20 rounded-full shadow-lg shadow-gray-500/70
-                lg:m-0 lg:max-w-[200px] object-cover object-bottom hover:translate-y-1 transition-all ' src={profile_image} alt="Profile Image" />
+                lg:m-0 lg:max-w-[200px] h-[300px] object-cover object-bottom hover:translate-y-1 transition-all ' src={profile_image} alt="Profile Image" />
             </div>
             <div className="text-center font-mono z-10 px-4">
                 <h1 className='text-4xl md:text-5xl lg:text-6xl lg:max-w-w[500px] font-semibold mb-6 px-1

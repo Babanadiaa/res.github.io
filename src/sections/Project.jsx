@@ -1,17 +1,16 @@
 import React, { useState } from 'react'
 import food from '../assets/food.png'
-import funiro from '../assets/funiro.png'
+import todo from '../assets/todo.png'
 import RevealOnScroll from '../UI/RevealOnScroll'
 
 export default function Project() {
     const [project] = useState([
         {
             image: food, name: 'Food App', brief: `Невеликий сайт по доставці харчування, та з розрахунком калорійності індивідуально під людину
-            за допомогою формул`
+            за допомогою формул. (Для повної працездібності потрібно запускати локальний сервер)`
         },
         {
-            image: funiro, name: 'Funiro App', brief: `багато-сторінковий сайт по продажу квартир, з слайдерами та різним функціоналом.
-            Недороблений в три пезди, але є`
+            image: todo, name: 'simple to-do list', brief: `Звичайний to-do list на React, перший проєкт))`
         },
     ])
     return (
@@ -31,7 +30,7 @@ export default function Project() {
                             <h3 className='font-semibold text-xl mb-4 '>{project.name}</h3>
                             <p className='text-gray-300 mb-4 '>{project.brief}</p>
                             <div className="flex flex-wrap sm:items-center gap-2 mb-4 ">
-                                {["React", "Supabase", "Swiper"].map((tech, index) => (
+                                {["React", "JS", 'Json'].map((tech, index) => (
                                     <span key={index} className='bg-blue-500/10 text-blue-400 py-1 px-3
                                  rounded-full text-balance hover:bg-blue-500/20 
                                  hover:shadow-[9_2px_8px_rgba(59,130,22.46,0.2)] transition'>{tech}

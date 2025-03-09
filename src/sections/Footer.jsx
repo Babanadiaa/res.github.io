@@ -4,6 +4,8 @@ import { FaInstagram } from "react-icons/fa";
 import { SlSocialGithub } from "react-icons/sl";
 import RevealOnScroll from '../UI/RevealOnScroll';
 import { FiYoutube } from "react-icons/fi";
+import { CiLinkedin } from "react-icons/ci";
+
 
 
 
@@ -28,9 +30,11 @@ export default function Footer() {
                     bg-white/5 text-white ' target='_blank'>
                             <SlSocialGithub />
                         </a>
-                        <a href="https://rt.pornhub.com/gay/video/search?search=gay+porn" className='border p-2 text-2xl rounded hover:-translate-y-2 transition-all
-                    bg-white/5 text-white ' target='_blank'>
-                            <FiYoutube />
+                        <a href="https://www.linkedin.com/in/%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC-%D0%B0%D1%82%D0%B0%D0%BC%D0%B0%D0%BD%D1%87%D1%83%D0%BA-435a8b352/"
+                            className='border p-2 text-2xl rounded hover:-translate-y-2 transition-all
+                         bg-white/5 text-white ' target='_blank'>
+                            <CiLinkedin />
+
                         </a>
                     </div>
                     <p>@ 2025 BabaZhaba. Stick together like balls of ass</p>
