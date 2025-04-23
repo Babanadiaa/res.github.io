@@ -1,17 +1,24 @@
 import React, { useState } from 'react'
-import food from '../assets/food.png'
-import todo from '../assets/todo.png'
+import food from '../assets/food.jpg'
+import goose from '../assets/goose.jpg'
 import RevealOnScroll from '../UI/RevealOnScroll'
 
 export default function Project() {
     const [project] = useState([
         {
-            image: food, name: 'Food App', brief: `Невеликий сайт по доставці харчування, та з розрахунком калорійності індивідуально під людину
+            image: food,
+            name: 'Food App',
+            brief: `Невеликий сайт по доставці харчування, та з розрахунком калорійності індивідуально під людину
             за допомогою формул. (Для повної працездібності потрібно запускати локальний сервер)`
         },
         {
-            image: todo, name: 'simple to-do list', brief: `Звичайний to-do list на React, перший проєкт))`
+            image: goose,
+            name: 'Pizza App',
+            brief: `Сайт для замовлення піци, з можливістю вибору інгредієнтів. Також присутній React Router для переходу між сторінками. 
+            `
+
         },
+
     ])
     return (
         <section id='project' className='min-h-screen flex  flex-col items-center font-mono justify-center py-20'>
